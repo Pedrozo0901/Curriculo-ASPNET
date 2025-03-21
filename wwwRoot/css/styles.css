@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(6, 6, 6);
+    color: #FFF;
+    text-align: center;
+    padding: 50px;
+}
+
+main {
+    background-color: #5b5b5b;
+    text-align: center;
+}
+
+#portifolio-container {
+    text-align: center;
+}
+
+.img-portifolio img{
+    width: 250px;
+    border-radius: 25px;
+    box-shadow: 2px 2px #d5d5d5;
+}
+
+.copetencias-container {
+    text-align: center;
+}
+
+.container-icons {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.icon img{
+    width: 50px;
+}
