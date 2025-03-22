@@ -1,40 +1,88 @@
 * {
     margin: 0;
     padding: 0;
+    color:#eae9e9;
+}
+
+body {
+    background-color: #383838;
 }
 
 header {
-    background-color: rgb(6, 6, 6);
-    color: #FFF;
+    background-color: rgb(20, 20, 20);
     text-align: center;
     padding: 50px;
 }
 
 main {
-    background-color: #5b5b5b;
     text-align: center;
 }
 
 #portifolio-container {
     text-align: center;
+    padding-bottom: 130px;
 }
 
 .img-portifolio img{
     width: 250px;
     border-radius: 25px;
     box-shadow: 2px 2px #d5d5d5;
+    margin: 50px;
 }
 
-.copetencias-container {
+.sobre-mim {
     text-align: center;
+    width:450px;
+    margin: 0 auto;
+}
+
+.sobre-mim h2{
+    color: #080808;
+    text-transform: uppercase;
+    background-color: #e1e1e1;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.copetencias-container h3{
+    width:450px;
+    color: #080808;
+    text-transform: uppercase;
+    background-color: #e1e1e1;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 .container-icons {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     text-align: center;
+    gap: 20px;
+}
+
+.container-contato h4{
+    width:450px;
+    color: #080808;
+    text-transform: uppercase;
+    background-color: #e1e1e1;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 .icon img{
     width: 50px;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    padding: 50px;
 }
